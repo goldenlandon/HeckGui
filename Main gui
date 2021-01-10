@@ -1,0 +1,439 @@
+	local HeckGui = Instance.new("ScreenGui")
+	local TopBar = Instance.new("TextLabel")
+	local Frame = Instance.new("Frame")
+	local FantomHub = Instance.new("TextButton")
+	local Settings = Instance.new("TextButton")
+	local CloseGui = Instance.new("TextButton")
+	local Inf = Instance.new("TextButton")
+	local MM2 = Instance.new("TextButton")
+	local Inf_2 = Instance.new("TextButton")
+	local ApocRising = Instance.new("TextButton")
+	local PFAimbot = Instance.new("TextButton")
+	local OP = Instance.new("TextButton")
+	local VR = Instance.new("TextButton")
+	local Settings_2 = Instance.new("ScreenGui")
+	local Background = Instance.new("Frame")
+	local Close = Instance.new("TextButton")
+	local Save = Instance.new("TextLabel")
+	
+	
+	
+	function leftClick()
+		script.Parent.Parent.Parent.Enabled = false
+		-- Gui to Lua
+	
+		--Properties:
+	
+		HeckGui.Name = "HeckGui"
+		HeckGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+		HeckGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+		HeckGui.ResetOnSpawn = false
+	
+		TopBar.Name = "TopBar"
+		TopBar.Parent = HeckGui
+		TopBar.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
+		TopBar.BorderSizePixel = 0
+		TopBar.Position = UDim2.new(0.723048925, 0, 0.605095804, 0)
+		TopBar.Selectable = true
+		TopBar.Size = UDim2.new(0, 409, 0, 34)
+		TopBar.Font = Enum.Font.Highway
+		TopBar.Text = "stupid gui"
+		TopBar.TextColor3 = Color3.fromRGB(0, 0, 0)
+		TopBar.TextScaled = true
+		TopBar.TextSize = 14.000
+		TopBar.TextWrapped = true
+	
+		Frame.Parent = TopBar
+		Frame.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+		Frame.BorderSizePixel = 0
+		Frame.Position = UDim2.new(0, 0, 0.987209082, 0)
+		Frame.Size = UDim2.new(0, 408, 0, 199)
+	
+		FantomHub.Name = "Fantom Hub"
+		FantomHub.Parent = TopBar
+		FantomHub.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
+		FantomHub.BorderSizePixel = 0
+		FantomHub.Position = UDim2.new(0.244943738, 0, 1.57804596, 0)
+		FantomHub.Size = UDim2.new(0, 71, 0, 50)
+		FantomHub.Font = Enum.Font.Highway
+		FantomHub.Text = "Famtom Hub"
+		FantomHub.TextColor3 = Color3.fromRGB(0, 0, 0)
+		FantomHub.TextScaled = true
+		FantomHub.TextSize = 14.000
+		FantomHub.TextWrapped = true
+	
+		Settings.Name = "Settings"
+		Settings.Parent = TopBar
+		Settings.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+		Settings.BackgroundTransparency = 1.000
+		Settings.BorderSizePixel = 0
+		Settings.Position = UDim2.new(-0.00211310387, 0, 0.0153923929, 0)
+		Settings.Size = UDim2.new(0, 45, 0, 33)
+		Settings.Font = Enum.Font.Highway
+		Settings.Text = "⚙️"
+		Settings.TextColor3 = Color3.fromRGB(0, 0, 0)
+		Settings.TextScaled = true
+		Settings.TextSize = 14.000
+		Settings.TextWrapped = true
+	
+		CloseGui.Name = "CloseGui"
+		CloseGui.Parent = TopBar
+		CloseGui.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
+		CloseGui.BorderSizePixel = 0
+		CloseGui.Position = UDim2.new(0.729051292, 0, 5.10745764, 0)
+		CloseGui.Size = UDim2.new(0, 71, 0, 50)
+		CloseGui.Font = Enum.Font.Highway
+		CloseGui.Text = "Close Gui"
+		CloseGui.TextColor3 = Color3.fromRGB(0, 0, 0)
+		CloseGui.TextScaled = true
+		CloseGui.TextSize = 14.000
+		CloseGui.TextWrapped = true
+	
+		Inf.Name = "Inf"
+		Inf.Parent = TopBar
+		Inf.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
+		Inf.BorderSizePixel = 0
+		Inf.Position = UDim2.new(0.48214671, 0, 1.57804608, 0)
+		Inf.Size = UDim2.new(0, 69, 0, 50)
+		Inf.Font = Enum.Font.Highway
+		Inf.Text = "Infinite yeild"
+		Inf.TextColor3 = Color3.fromRGB(0, 0, 0)
+		Inf.TextScaled = true
+		Inf.TextSize = 14.000
+		Inf.TextWrapped = true
+	
+		MM2.Name = "MM2"
+		MM2.Parent = TopBar
+		MM2.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
+		MM2.BorderSizePixel = 0
+		MM2.Position = UDim2.new(0.729090512, 0, 1.57804608, 0)
+		MM2.Size = UDim2.new(0, 69, 0, 50)
+		MM2.Font = Enum.Font.Highway
+		MM2.Text = "MM2"
+		MM2.TextColor3 = Color3.fromRGB(0, 0, 0)
+		MM2.TextScaled = true
+		MM2.TextSize = 14.000
+		MM2.TextWrapped = true
+	
+		Inf_2.Name = "Inf"
+		Inf_2.Parent = TopBar
+		Inf_2.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
+		Inf_2.BorderSizePixel = 0
+		Inf_2.Position = UDim2.new(0.48214671, 0, 1.57804608, 0)
+		Inf_2.Size = UDim2.new(0, 69, 0, 50)
+		Inf_2.Font = Enum.Font.Highway
+		Inf_2.Text = "Infinite yeild"
+		Inf_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+		Inf_2.TextScaled = true
+		Inf_2.TextSize = 14.000
+		Inf_2.TextWrapped = true
+	
+		ApocRising.Name = "ApocRising"
+		ApocRising.Parent = TopBar
+		ApocRising.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
+		ApocRising.BorderSizePixel = 0
+		ApocRising.Position = UDim2.new(0.0127090421, 0, 1.57804608, 0)
+		ApocRising.Size = UDim2.new(0, 69, 0, 50)
+		ApocRising.Font = Enum.Font.Highway
+		ApocRising.Text = "Apoc rising"
+		ApocRising.TextColor3 = Color3.fromRGB(0, 0, 0)
+		ApocRising.TextScaled = true
+		ApocRising.TextSize = 14.000
+		ApocRising.TextWrapped = true
+	
+		PFAimbot.Name = "PFAimbot"
+		PFAimbot.Parent = TopBar
+		PFAimbot.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
+		PFAimbot.BorderSizePixel = 0
+		PFAimbot.Position = UDim2.new(0.0127090421, 0, 3.40157557, 0)
+		PFAimbot.Size = UDim2.new(0, 69, 0, 50)
+		PFAimbot.Font = Enum.Font.Highway
+		PFAimbot.Text = "PF Aimbot"
+		PFAimbot.TextColor3 = Color3.fromRGB(0, 0, 0)
+		PFAimbot.TextScaled = true
+		PFAimbot.TextSize = 14.000
+		PFAimbot.TextWrapped = true
+	
+		OP.Name = "OP"
+		OP.Parent = TopBar
+		OP.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
+		OP.BorderSizePixel = 0
+		OP.Position = UDim2.new(0.48214671, 0, 3.40157557, 0)
+		OP.Size = UDim2.new(0, 69, 0, 50)
+		OP.Font = Enum.Font.Highway
+		OP.Text = "Op prison life gui"
+		OP.TextColor3 = Color3.fromRGB(0, 0, 0)
+		OP.TextScaled = true
+		OP.TextSize = 14.000
+		OP.TextWrapped = true
+	
+		VR.Name = "VR"
+		VR.Parent = TopBar
+		VR.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
+		VR.BorderSizePixel = 0
+		VR.Position = UDim2.new(0.729090452, 0, 3.40157557, 0)
+		VR.Size = UDim2.new(0, 69, 0, 50)
+		VR.Font = Enum.Font.Highway
+		VR.Text = "VR"
+		VR.TextColor3 = Color3.fromRGB(0, 0, 0)
+		VR.TextScaled = true
+		VR.TextSize = 14.000
+		VR.TextWrapped = true
+	
+		Settings_2.Name = "Settings"
+		Settings_2.Parent = HeckGui
+		Settings_2.Enabled = false
+		Settings_2.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+		Settings_2.ResetOnSpawn = false
+	
+		Background.Name = "Background"
+		Background.Parent = Settings_2
+		Background.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+		Background.BorderSizePixel = 0
+		Background.Position = UDim2.new(0.0623072162, 0, 0.153754473, 0)
+		Background.Size = UDim2.new(0, 299, 0, 413)
+	
+		Close.Name = "Close"
+		Close.Parent = Background
+		Close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		Close.BackgroundTransparency = 1.000
+		Close.BorderColor3 = Color3.fromRGB(53, 0, 0)
+		Close.BorderSizePixel = 10
+		Close.Position = UDim2.new(-0.00123793259, 0, -0.00120919943, 0)
+		Close.Size = UDim2.new(0, 77, 0, 40)
+		Close.Font = Enum.Font.Highway
+		Close.Text = "Close"
+		Close.TextColor3 = Color3.fromRGB(0, 0, 0)
+		Close.TextScaled = true
+		Close.TextSize = 14.000
+		Close.TextWrapped = true
+	
+		Save.Name = "Save"
+		Save.Parent = Background
+		Save.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		Save.BackgroundTransparency = 1.000
+		Save.BorderSizePixel = 0
+		Save.Position = UDim2.new(0.179232031, 0, -0.00120921433, 0)
+		Save.Size = UDim2.new(0, 245, 0, 32)
+		Save.Font = Enum.Font.Highway
+		Save.Text = "Auto save :)"
+		Save.TextColor3 = Color3.fromRGB(0, 0, 0)
+		Save.TextScaled = true
+		Save.TextSize = 14.000
+		Save.TextWrapped = true
+	
+		-- Scripts:
+	
+		local function EBTMRDW_fake_script() -- FantomHub.LocalScript 
+			local script = Instance.new('LocalScript', FantomHub)
+	
+			function leftClick()
+				loadstring(game:HttpGet("https://pastebin.com/raw/UmhaEvTT",true))()
+			end
+	
+			function rightClick()
+				print("Right mouse click")
+			end
+	
+			script.Parent.MouseButton1Click:Connect(leftClick)
+			script.Parent.MouseButton2Click:Connect(rightClick)
+	
+		end
+		coroutine.wrap(EBTMRDW_fake_script)()
+		local function PXWQ_fake_script() -- Settings.LocalScript 
+			local script = Instance.new('LocalScript', Settings)
+	
+			Enable = script.Parent.Parent.Parent.Settings
+			function leftClick()
+				Enable.Enabled = true
+			end
+	
+			function rightClick()
+				print("Right mouse click")
+			end
+	
+			script.Parent.MouseButton1Click:Connect(leftClick)
+			script.Parent.MouseButton2Click:Connect(rightClick)
+		end
+		coroutine.wrap(PXWQ_fake_script)()
+		local function MHZJG_fake_script() -- CloseGui.LocalScript 
+			local script = Instance.new('LocalScript', CloseGui)
+	
+			function leftClick()
+				script.Parent.Parent.Parent.Enabled = false
+				local function callback(Text)
+					if Text == "Button1 text" then
+						print ("Answer")
+					elseif Text == ("Button2 text") then
+						print ("Answer2")
+					end
+				end
+	
+				local NotificationBindable = Instance.new("BindableFunction")
+				NotificationBindable.OnInvoke = callback
+				--
+				game.StarterGui:SetCore("SendNotification",  {
+					Title = "Bye!";
+					Text = "Thanks for using the script. More versions are coming soon ;) was the script good?";
+					Icon = "";
+					Duration = 10000000000000000000000000000000;
+					Button1 = "Yes very epic :)";
+					Button2 = "No, not good";
+					Callback = NotificationBindable;
+				})
+			end
+	
+			function rightClick()
+				print("Right mouse click")
+			end
+	
+			script.Parent.MouseButton1Click:Connect(leftClick)
+			script.Parent.MouseButton2Click:Connect(rightClick)
+	
+		end
+		coroutine.wrap(MHZJG_fake_script)()
+		local function KHEZGNN_fake_script() -- Inf.LocalScript 
+			local script = Instance.new('LocalScript', Inf)
+	
+			Enable = script.Parent.Parent.Parent.Settings
+			function leftClick()
+				loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+			end
+	
+			function rightClick()
+				print("Right mouse click")
+			end
+	
+			script.Parent.MouseButton1Click:Connect(leftClick)
+			script.Parent.MouseButton2Click:Connect(rightClick)
+		end
+		coroutine.wrap(KHEZGNN_fake_script)()
+		local function CGYMRWT_fake_script() -- MM2.LocalScript 
+			local script = Instance.new('LocalScript', MM2)
+	
+			Enable = script.Parent.Parent.Parent.Settings
+			function leftClick()
+				loadstring(game:HttpGet("https://raw.githubusercontent.com/Ethanoj1/EclipseMM2/master/Script", true))()
+			end
+	
+			function rightClick()
+				print("Right mouse click")
+			end
+	
+			script.Parent.MouseButton1Click:Connect(leftClick)
+			script.Parent.MouseButton2Click:Connect(rightClick)
+		end
+		coroutine.wrap(CGYMRWT_fake_script)()
+		local function JQHT_fake_script() -- Inf_2.LocalScript 
+			local script = Instance.new('LocalScript', Inf_2)
+	
+			Enable = script.Parent.Parent.Parent.Settings
+			function leftClick()
+				loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+			end
+	
+			function rightClick()
+				print("Right mouse click")
+			end
+	
+			script.Parent.MouseButton1Click:Connect(leftClick)
+			script.Parent.MouseButton2Click:Connect(rightClick)
+		end
+		coroutine.wrap(JQHT_fake_script)()
+		local function ZTLYM_fake_script() -- ApocRising.LocalScript 
+			local script = Instance.new('LocalScript', ApocRising)
+	
+			Enable = script.Parent.Parent.Parent.Settings
+			function leftClick()
+				loadstring(game:HttpGet("https://pastebin.com/raw/eCCmuezM", true))()
+			end
+	
+			function rightClick()
+				print("Right mouse click")
+			end
+	
+			script.Parent.MouseButton1Click:Connect(leftClick)
+			script.Parent.MouseButton2Click:Connect(rightClick)
+		end
+		coroutine.wrap(ZTLYM_fake_script)()
+		local function JHQV_fake_script() -- PFAimbot.LocalScript 
+			local script = Instance.new('LocalScript', PFAimbot)
+	
+			Enable = script.Parent.Parent.Parent.Settings
+			function leftClick()
+				loadstring(game:HttpGet("https://pastebin.com/f54tpnbP", true))()
+			end
+	
+			function rightClick()
+				print("Right mouse click")
+			end
+	
+			script.Parent.MouseButton1Click:Connect(leftClick)
+			script.Parent.MouseButton2Click:Connect(rightClick)
+		end
+		coroutine.wrap(JHQV_fake_script)()
+		local function AFKZH_fake_script() -- OP.LocalScript 
+			local script = Instance.new('LocalScript', OP)
+	
+			Enable = script.Parent.Parent.Parent.Settings
+			function leftClick()
+				loadstring(game:HttpGet("https://raw.githubusercontent.com/RbxCheats/RbxCheats/master/Scripts/PLG%20v3.1.lua",true))()
+			end
+	
+			function rightClick()
+				print("Right mouse click")
+			end
+	
+			script.Parent.MouseButton1Click:Connect(leftClick)
+			script.Parent.MouseButton2Click:Connect(rightClick)
+		end
+		coroutine.wrap(AFKZH_fake_script)()
+		local function DBVVN_fake_script() -- VR.LocalScript 
+			local script = Instance.new('LocalScript', VR)
+	
+			Enable = script.Parent.Parent.Parent.Settings
+			function leftClick()
+	
+			end
+	
+			function rightClick()
+				print("Right mouse click")
+			end
+	
+			script.Parent.MouseButton1Click:Connect(leftClick)
+			script.Parent.MouseButton2Click:Connect(rightClick)
+		end
+		coroutine.wrap(DBVVN_fake_script)()
+		local function ZOXQ_fake_script() -- HeckGui.Drag 
+			local script = Instance.new('Script', HeckGui)
+	
+			TopBar = script.Parent.TopBar
+			TopBar.Draggable = true
+			TopBar.Active = true
+			TopBar.Selectable = true
+	
+		end
+		coroutine.wrap(ZOXQ_fake_script)()
+		local function XCALNIW_fake_script() -- Close.LocalScript 
+			local script = Instance.new('LocalScript', Close)
+	
+			function leftClick()
+				script.Parent.Parent.Parent.Enabled = false
+			end
+	
+			function rightClick()
+				print("Right mouse click")
+			end
+	
+			script.Parent.MouseButton1Click:Connect(leftClick)
+			script.Parent.MouseButton2Click:Connect(rightClick)
+		end
+		coroutine.wrap(XCALNIW_fake_script)()
+	end
+	
+	function rightClick()
+		print("Right mouse click")
+	end
+	
+	script.Parent.MouseButton1Click:Connect(leftClick)
+	script.Parent.MouseButton2Click:Connect(rightClick)
