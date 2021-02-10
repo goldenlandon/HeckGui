@@ -119,7 +119,7 @@ local function ICREF_fake_script() -- TextButton.LocalScript
 
 	A = script.Parent.Parent.Password
 	function leftClick()
-		if A.Text == "Lol" then
+		if A.Text == "Your key here!!" then
 			script.Parent.Parent.Parent.Enabled = false
 			script.Parent.Parent.Parent.Parent.Inject.Enabled = true
 		end
@@ -141,9 +141,7 @@ local function WHSBSZ_fake_script() -- DevLogin.LocalScript
 	
 	
 	function leftClick()
-		if Key.Text == "test123" then
-		script.Parent.Parent.Parent.Enabled = false
-		end
+		print("Disabled!")
 	end
 	
 	function rightClick()
